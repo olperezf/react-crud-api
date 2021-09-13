@@ -1,5 +1,25 @@
 # Elaborar desde 0 un CRUD(Create, Read, Update, Delete) en React, Utilizando como api: Rails6 ó Django3 en Debian 10
 Aquí vamos a utilizar los componentes básicos de react, sin utilizar librerias como Redux, Hooks, entre otros. Librerías que lo veremos después en otro apartado.
+
+Nuestra aplicación cuando este terminada:
+
+- Listando los usuarios:
+
+![alt text](https://github.com/olperezf/react-crud-api/blob/master/imgs/listar_usuarios.jpg?raw=true)
+
+- Creando un usuario:
+
+![alt text](https://github.com/olperezf/react-crud-api/blob/master/imgs/creando_usuario.jpg?raw=true)
+
+- Editando un usuario:
+
+![alt text](https://github.com/olperezf/react-crud-api/blob/master/imgs/editando_usuario.jpg?raw=true)
+
+-Eliminando un usuario:
+
+![alt text](https://github.com/olperezf/react-crud-api/blob/master/imgs/eliminando_usuario.jpg?raw=true)
+
+
 ### Instalación de Nodejs:
 - Node.js es una plataforma basada en el motor JavaScript V8 de Chrome. Debe agregar el PPA(Personal Package Archive) de Node.js a su sistema proporcionado por el sitio web oficial de Nodejs. También necesitamos instalar el paquete software-properties-common si aún no está instalado. Se instalará la versión 14. Ejecutar el siguiente comando:
 
@@ -52,7 +72,7 @@ Después que tenga creado su API, continuar con el siguiente paso de Crear una a
 
       /Proyectos/React$ npx create-react-app usuarios
 
-- Luego entrammos dentro del proyecto creado:
+- Luego entramos dentro del proyecto creado:
 
       /Proyectos/React$ cd usuarios
 
@@ -60,9 +80,7 @@ Después que tenga creado su API, continuar con el siguiente paso de Crear una a
 
       /Proyectos/React/usuarios$ yarn start
       
-- Mostrando la siguiente página:
-
-
+La página mostrará el logo de react.
 
 - Luego agreguemos algunas dependencias importantes que vamos a utilizar dentro del proyecto:
 
