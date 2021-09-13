@@ -334,7 +334,7 @@ Agregar el siguiente contenido en index.js:
             export const API_URL = "http://127.0.0.1:8000/api/users/"; 
       
       Para conectarse con Rails utilizar la siguiente ruta:
-            export const API_URL = "http://localhost:3001/api/v1/users/";
+            export const API_URL = "http://localhost:3001/api/users/";
 
       
 ### Creación del componente Header:
@@ -850,6 +850,7 @@ para finalizar tener en cuenta que React levanta el servidor en el puerto 3000, 
 
       user-app$ rails s -p 3001  
       
-En mi caso se puede observar que el nombre de mi api en rails es user-app.
+En mi caso se puede observar que el nombre de mi api en rails es user-app.    
 
+Recordar que si cambias el puerto del api Rails ó Django, ir a la dirección src/constants/index.js para cambiar la dirección del api con el nuevo puerto.
  
